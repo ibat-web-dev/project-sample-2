@@ -12,56 +12,25 @@
 
 	<link rel="stylesheet" href="assets/css/project-sample-2.css">
 
-<!-- Link to icons for Font Awesome 5 -->
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<!-- Link to icons for Font Awesome 4 -->
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
 	<style>
-
 		.hero-block-9 { background-image: url('assets/img/undraw-services.png') }
-
-		.flex-grid-three { text-align: center }
-		.flex-grid-three img  { width: 90%; margin: 0 auto 20px auto }
-		.flex-grid-three h3 { margin-bottom: 12px; min-height: 12px; color: #1e266d }
-		.flex-grid-three p { color: #4c4f5a }
-		.container-footer { margin-top: 0 }
-
 		.flex-grid-four-two { text-align: center }
 		.flex-grid-four-two h3 { 
 			margin-bottom: 12px;
 			font-size: calc(14px + (19 - 14) * ((100vw - 320px)/(1600 - 320)))	
 		}
-
 		.flex-grid-four-two .col-gutter i { 
 			color: #500294;
 			color: red;
 			font-size: calc(48px + (94 - 48) * ((100vw - 320px) / (1600 - 320))); 
 			margin-bottom:5%;
 		}
-
 	</style>
-
-
-	<!-- Cookie consent code-->
-	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-	<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-	<script>
-	window.addEventListener("load", function(){
-	window.cookieconsent.initialise({
-	  "palette": {
-		"popup": {
-		  "background": "#383b75"
-		},
-		"button": {
-		  "background": "#f1d600"
-		}
-	  },
-	  "theme": "classic",
-	  "content": {
-		"href": "https://ibat-web-dev.github.io/privacy.html"
-	  }
-	})});
-	</script>
-
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-122243940-1"></script>
@@ -96,7 +65,7 @@
 		<li><a href="index.html">Home</a></li>
 		<li><a href="services.html">Services</a></li>
 		<li><a href="team.html">Team</a></li>
-		<li><a href="#" class="btn-solid btn-rounded"><i class="far fa-user"></i> Client Login</a></li>
+		<li><a href="#" class="btn-solid btn-rounded"><i class="fa fa-user" aria-hidden="true"></i> Client Login</a></li>
 	</ul>
 </div>
 <!-- end menu mobile -->
@@ -114,7 +83,7 @@
 			<li><a href="index.html">Home</a></li>
 			<li><a href="services.html">Services</a></li>
 			<li><a href="team.html">Team</a></li>
-			<li><a href="#" class="btn-solid btn-rounded"><i class="far fa-user"></i> Client Login</a></li>
+			<li><a href="#" class="btn-solid btn-rounded"><i class="fa fa-user" aria-hidden="true"></i> Client Login</a></li>
 		</ul>
 	</div>
 </div>
@@ -145,22 +114,22 @@
 	<div class="flex-grid-four-two">
 
 		<div class="col-gutter">
-			<i class="far fa-lightbulb"></i>
+			<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
 			<h3>Ideas</h3>
 		</div>
 
 		<div class="col-gutter">
-			<i class="far fa-comments"></i>
+			<i class="fa fa-comments" aria-hidden="true"></i>
 			<h3>Marketing</h3>
 		</div>
 
 		<div class="col-gutter">
-			<i class="fas fa-globe"></i>
+			<i class="fa fa-globe" aria-hidden="true"></i>
 			<h3>Websites</h3>
 		</div>
 
 		<div class="col-gutter">
-			<i class="fab fa-instagram"></i>
+			<i class="fa fa-instagram" aria-hidden="true"></i>
 			<h3>Social Media</h3>
 		</div>
 
@@ -173,22 +142,22 @@
 	<div class="flex-grid-four-two">
 
 		<div class="col-gutter">
-			<i class="fas fa-at"></i>
+			<i class="fa fa-at" aria-hidden="true"></i>
 			<h3>Email</h3>
 		</div>
 
 		<div class="col-gutter">
-			<i class="fas fa-video"></i>
+			<i class="fa fa-video-camera" aria-hidden="true"></i>
 			<h3>Video</h3>
 		</div>
 
 		<div class="col-gutter">
-			<i class="fas fa-user-friends"></i>
+			<i class="fa fa-users" aria-hidden="true"></i>
 			<h3>UI /UX</h3>
 		</div>
 
 		<div class="col-gutter">
-			<i class="fas fa-mobile-alt"></i>
+			<i class="fa fa-mobile" aria-hidden="true"></i>
 			<h3>Mobile</h3>
 		</div>
 
@@ -207,42 +176,25 @@
 
 
 <div class="container-footer">
-
 	<div class="flex-grid-footer">
-
 		<div class="col-gutter">
-
 			<h4>SITE MAP</h4>
-
-			<p><i class="fas fa-fw fa-home"></i> <a href="../index.html">Home</a></p>
-
-			<p><i class="fas fa-fw fa-file-alt"></i> <a href="../portfolio/index.html">Portfolio</a></p>
-
-			<p><i class="fas fa-fw fa-lock"></i> <a href="../privacy.html">Privacy</a></p>
-		
+			<p><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;<a href="index.html">Home</a></p>
+			<p><i class="fa fa-file" aria-hidden="true"></i>&nbsp;&nbsp;<a href="../portfolio/index.html">Portfolio</a></p>
+			<p><i class="fa fa-lock" aria-hidden="true"></i>&nbsp;&nbsp;<a href="../privacy.html">Privacy</a></p>
 		</div><!-- /column -->
-
 		<div class="col-gutter">
 			<h4>ABOUT ME</h4>
 			<p>Hi, I'm Mary Smith. I'm a web designer and developer. I created this sample, three-page website for a fictitious web agency to showcase some of my digital creation skills.</p>
 		</div><!-- /column -->
-
 		<div class="col-gutter">
-
 			<h4>CONTACT</h4>
-
-			<p><i class="fas fa-fw fa-envelope"></i> <a href="mailto:ibat.training@gmail.com">Email</a></p>
-
-			<p><i class="fab fa-fw fa-github-square"></i> <a href="https://www.github.com/ibat-web-dev" target="_blank">GitHub</a></p>
-
-			<p><i class="fab fa-fw fa-linkedin"></i> <a href="https://ie.linkedin.com/school/ibat-college-dublin/" target="_blank">Linkedin</a></p>
-
+			<p><i class="fa fa-envelope"></i>&nbsp;&nbsp;<a href="mailto:ibat.training@gmail.com">Email</a></p>
+			<p><i class="fa fa-github-square"></i>&nbsp;&nbsp;<a href="https://www.github.com/ibat-web-dev" target="_blank">GitHub</a></p>
+			<p><i class="fa fa-linkedin"></i>&nbsp;&nbsp;<a href="https://ie.linkedin.com/school/ibat-college-dublin/" target="_blank">Linkedin</a></p>
 		</div><!-- /column -->
-
 	</div><!-- /flexgrid -->
-	
 </div> <!-- /footer -->
-
 
 
 <!-- Begin JavaScript code showing/hiding slide-out menu -->
@@ -300,6 +252,23 @@
 	}
 </script>
 <!-- End JavaScript code for menu styles on scrolling -->
+
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+	window.cookieconsent.initialise({
+	  "palette": {
+		"popup": {
+		  "background": "#000"
+		},
+		"button": {
+		  "background": "#f1d600"
+		}
+	  },
+	  "content": {
+		"href": "https://www.munnelly.com/legal/"
+	  }
+	});
+</script>
 
 </body>
 </html>
